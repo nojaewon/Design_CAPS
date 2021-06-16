@@ -1,0 +1,223 @@
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box;
+}
+
+#container {
+    width : 100%;
+}
+
+
+/* -------nav block-------- */
+
+
+header {
+    height : 90px;
+    line-height: 90px;
+}
+
+.logo {
+    display : inline-block;
+    font-size : 40px;
+    font-weight: 500;
+    margin-left : 30px;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.navbar {
+    float : right;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li {
+    float : left;
+    position : relative;
+    width : 180px;
+    text-align: center;
+}
+
+.navbar ul li a {
+    display : block;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color : tomato;
+}
+
+.navbar ul li a:hover + ul {
+    background-color : rgba(255,255,255,0.3);
+    display : block;
+}
+
+.navbar ul li ul:hover {
+    background-color : rgba(255,255,255,0.3);
+    display : block;
+}
+
+.navbar ul li ul {
+    z-index : 10;
+    position : absolute;
+    left : 0;
+    display : none;
+    cursor: pointer;
+    
+}
+
+.navbar ul li ul li {
+    padding-left : 20px;
+    text-align: left;
+}
+
+.signup {
+    float : right;
+}
+
+
+/* ------nav end------- */
+
+/* -------slide Show-------- */
+section {
+    width : 100%;
+}
+
+#slideTitle {
+    color : white;
+    position : absolute;
+    width : 100%;
+    line-height : 700px;
+    text-align: center;
+    margin : 0 auto;
+    background : transparent;
+    font-size : 40px;
+    z-index : 2;
+}
+
+#slideImage {
+    position : relative;
+    width : 80%;
+    height : 700px;
+    margin : 0 auto;
+    z-index : 1;
+}
+
+#slideImage img {
+    width : 100%;
+    height : 700px;
+}
+
+button {
+    background : transparent;
+    position : absolute;
+    width : 20px;
+    height : 100%;
+    font-size : 3rem;
+    color : white;
+    border : none;
+    cursor : pointer;
+    z-index : 3;
+}
+
+#prev {
+    left : 0;
+}
+
+#next {
+    right :0;
+}
+
+/* -------slide End------- */
+
+/* ---------features--------- */
+
+#features {
+    width : 100%;
+    height : 500px;
+    padding-top : 100px;
+}
+
+.feature-container {
+    width : 1110px;
+    height: 400px;
+    margin : 0 auto;
+}
+
+
+.feature-card {
+    float : left;
+    width : 370px;
+    height : 200px;
+    padding-top : 30px;
+    padding-left : 80px
+}
+
+.feature-card h1 {
+    color : steelblue;
+}
+
+.feature-card ul li {
+    padding-top : 10px;
+    list-style: none;
+}
+
+.feature-card ul li a {
+    text-decoration: none;
+    color : black;
+}
+
+/* ---------features End --------- */
+
+
+
+#call-to-action {
+    background-color:silver;
+    width : 100%;
+    height : 300px;
+}
+
+.call-to-action_cotainer {
+    color : white;
+    width : 50%;
+    height : 300px;
+    margin : 0 auto;
+    padding-top : 100px;
+    padding-bottom : 100px;
+    text-align: center;
+}
+
+.call-to-action_cotainer .title-box {
+    display : inline-block;
+    margin : 0 auto;
+}
+
+.call-to-action_cotainer a {
+    text-decoration: none;
+    color : white;
+}
+
+footer {
+
+    width : 100%;
+    height : 100px;
+}
+
+.footer_cotainer {
+    width : 50%;
+    height : 100px;
+    margin : 0 auto;
+    padding-top : 20px;
+    padding-bottom : 20px;
+    text-align: center;
+}
+
+.footer_cotainer a {
+    text-decoration: none;
+    color : black;
+}
